@@ -320,7 +320,7 @@ button:focus {
 .home-about-section {
   position: relative;
   padding-bottom: 70px !important;
-  padding-top: 70px !important;
+  /* padding-top: 70px !important; */
 }
 
 .home-about-description {
@@ -348,6 +348,30 @@ button:focus {
   display: inline-block !important;
   position: relative !important;
   padding-inline-start: 0 !important;
+}
+
+/* Home Projects Section */
+.home-projects-section {
+  position: relative !important;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  background-image: var(--section-background-color) !important;
+}
+
+.home-projects-header {
+  text-align: center !important;
+  padding-bottom: 50px !important;
+}
+
+.home-projects-header h1 {
+  color: white !important;
+  margin-bottom: 20px !important;
+}
+
+.home-projects-header p {
+  color: rgba(255, 255, 255, 0.8) !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
 }
 
 .home-social-icons {
@@ -413,7 +437,7 @@ button:focus {
 
 .footer-body {
   z-index: 1;
-  text-align: center !important;
+  text-align: right !important;
 }
 
 @media (max-width: 767px) {
@@ -740,4 +764,74 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+/* Contact Dropdown Styles */
+.contact-dropdown {
+  position: relative;
+}
+
+.contact-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(27, 26, 46, 0.95);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(199, 112, 240, 0.3);
+  border-radius: 8px;
+  padding: 8px 0;
+  min-width: 200px;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: dropdownFadeIn 0.3s ease-in-out;
+}
+
+.contact-option {
+  padding: 10px 15px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid rgba(199, 112, 240, 0.1);
+}
+
+.contact-option:last-child {
+  border-bottom: none;
+}
+
+.contact-option:hover {
+  background: rgba(199, 112, 240, 0.1);
+  color: var(--imp-text-color);
+  transform: translateX(5px);
+}
+
+@keyframes dropdownFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .contact-dropdown-menu {
+    position: static;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .contact-option {
+    padding: 8px 0;
+    border-bottom: none;
+    text-align: center;
+  }
+  
+  .contact-option:hover {
+    transform: none;
+  }
 }

@@ -6,65 +6,75 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
   SiNextdotjs,
-  SiSolidity,
   SiPostgresql,
+  SiTailwindcss,
+  SiStrapi,
+  SiBootstrap,
+  SiWordpress,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
+import { FaCode } from "react-icons/fa"; // Placeholder for CodeIgniter
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
-    </Row>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <DiJavascript1 />
+      <p className="tech-label" style={{ fontSize: "0.7rem", marginTop: "8px" }}>JavaScript</p>
+    </Col>
+    {/* <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <TbBrandGolang />
+      <p className="tech-label" style={{ fontSize: "0.7rem", marginTop: "8px" }}>Go</p>
+    </Col> */}
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <DiNodejs />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>Node.js</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <DiReact />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>React</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <DiMongodb />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>MongoDB</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <SiNextdotjs />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>Next.js</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <DiGit />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>Git</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <SiPostgresql />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>PostgreSQL</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <SiTailwindcss />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>Tailwind CSS</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <SiStrapi />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>Strapi</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <SiBootstrap />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>Bootstrap</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <SiWordpress />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>WordPress</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <FaCode />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>CodeIgniter</p>
+    </Col>
+  </Row>
   );
 }
 

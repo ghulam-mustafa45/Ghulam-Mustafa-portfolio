@@ -12,6 +12,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlinePhone,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -19,6 +20,7 @@ import { CgFileDocument } from "react-icons/cg";
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  const [showContact, setShowContact] = useState(false);
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -30,6 +32,18 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
+  const handleContactClick = () => {
+    setShowContact(!showContact);
+  };
+
+  const handlePhoneClick = () => {
+    window.open("tel:+923065647969", "_blank");
+  };
+
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/923065647969", "_blank");
+  };
+
   return (
     <Navbar
       expanded={expand}
@@ -39,7 +53,8 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
+          <h4 className="purple">Ghulam Mustafa</h4>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -92,19 +107,25 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+            <Nav.Item className="contact-dropdown">
+              <Nav.Link onClick={handleContactClick}>
+                <AiOutlinePhone style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
+              {showContact && (
+                <div className="contact-dropdown-menu">
+                  <div className="contact-option" onClick={handlePhoneClick}>
+                    📞 Call: +923065647969
+                  </div>
+                  <div className="contact-option" onClick={handleWhatsAppClick}>
+                    💬 WhatsApp
+                  </div>
+                </div>
+              )}
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/ghulam-mustafa45"
                 target="_blank"
                 className="fork-btn-inner"
               >
