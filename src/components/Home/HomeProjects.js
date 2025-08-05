@@ -41,7 +41,7 @@ function HomeProjects() {
               title="Aaxon Solutions"
               description="Aaxon Solutions provides innovative tech solutions, including SAP, custom software, AI analytics, and secure cloud infrastructure. With 50+ global partnerships, we drive efficiency in health, education, and travel using full-stack development, PWAs, IoT, and AI/ML."
               // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              demoLink="http://91.107.193.126/"
             />
           </Col>
 
