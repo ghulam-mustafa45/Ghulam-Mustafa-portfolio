@@ -142,8 +142,8 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
-    font-size: 1.4rem !important;
+    padding: 1rem 1rem !important;
+    font-size: 1.2rem !important;
     background-color: #181a27 !important;
   }
   .navbar-nav .nav-item a::after {
@@ -447,6 +447,15 @@ button:focus {
 
   .footer-body {
     text-align: center !important;
+  }
+
+  .home-about-body {
+    padding-top: 30px;
+    font-size: 1em !important;
+    text-align: left;
+  }
+  .home-about-heading {
+    font-size: 2em !important;
   }
 }
 
