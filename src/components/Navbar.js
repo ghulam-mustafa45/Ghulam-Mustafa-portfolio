@@ -13,6 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiOutlinePhone,
+  AiOutlineMail,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -42,6 +43,10 @@ function NavBar() {
 
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/923065647969", "_blank");
+  };
+
+  const handleEmailClick = () => {
+    window.open("mailto:mustafa.javed428@gmail.com", "_blank");
   };
 
   return (
@@ -118,6 +123,9 @@ function NavBar() {
                   </div>
                   <div className="contact-option" onClick={handleWhatsAppClick}>
                     💬 WhatsApp
+                  </div>
+                  <div className="contact-option" onClick={handleEmailClick}>
+                    📧 Email: mustafa.javed428@gmail.com
                   </div>
                 </div>
               )}

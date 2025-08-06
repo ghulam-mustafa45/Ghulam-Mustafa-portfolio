@@ -5,6 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiOutlinePhone,
+  AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
@@ -18,6 +19,10 @@ function Footer() {
 
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/923065647969", "_blank");
+  };
+
+  const handleEmailClick = () => {
+    window.open("mailto:mustafa.javed428@gmail.com", "_blank");
   };
 
   return (
@@ -71,6 +76,17 @@ function Footer() {
                 onClick={handleWhatsAppClick}
               >
                 <FaWhatsapp />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="mailto:mustafa.javed428@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={handleEmailClick}
+              >
+                <AiOutlineMail />
               </a>
             </li>
           </ul>

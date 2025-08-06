@@ -793,6 +793,8 @@ button:focus {
   z-index: 1000;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   animation: dropdownFadeIn 0.3s ease-in-out;
+  text-align: left;
+  font-size: 14px;
 }
 
 .contact-option {
