@@ -46,7 +46,7 @@ function NavBar() {
   };
 
   const handleEmailClick = () => {
-    window.open("mailto:mustafa.javed428@gmail.com", "_blank");
+    window.open("mailto:ghulam.mustafa.devv@gmail.com", "_blank");
   };
 
   return (
@@ -125,7 +125,7 @@ function NavBar() {
                     💬 WhatsApp
                   </div>
                   <div className="contact-option" onClick={handleEmailClick}>
-                    📧 Email: mustafa.javed428@gmail.com
+                    📧 Email: ghulam.mustafa.devv@gmail.com
                   </div>
                 </div>
               )}

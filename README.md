@@ -96,7 +96,7 @@ You will find all the components used and you can edit your information accordin
 <p>Give a ⭐ if you like this website!</p>
 
 <!-- Custom message instead of Buy Me a Coffee -->
-<a href="mailto:mustafa.javed428@gmail.com" target="_blank" style="text-decoration: none;">
+<a href="mailto:ghulam.mustafa.devv@gmail.com" target="_blank" style="text-decoration: none;">
   <div style="display: inline-block; background-color: #7F5AF0; color: white; padding: 15px 25px; border-radius: 8px; font-size: 18px; font-weight: bold; text-align: center;">
     Hire me as a Web Developer<br>
     Contact me for your freelancing projects
