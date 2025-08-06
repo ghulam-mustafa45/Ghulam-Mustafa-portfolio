@@ -457,6 +457,12 @@ button:focus {
   .home-about-heading {
     font-size: 2em !important;
   }
+
+  .home-content {
+    padding: 4rem 0 2rem !important;
+    color: whitesmoke;
+    text-align: left;
+  }
 }
 
 .footer h3 {
