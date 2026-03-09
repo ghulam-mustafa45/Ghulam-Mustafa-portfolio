@@ -17,11 +17,11 @@ function Home2() {
             LET ME <span className="purple"> INTRODUCE </span> MYSELF
           </h1>
           <p className="home-about-body">
-            Hey there! I’m a passionate full-stack developer with 2.5 years of experience, obsessed with building innovative web solutions. 🌟
+            Hey there! I’m a passionate full-stack developer with 3.5 years of experience, obsessed with building innovative web solutions. 🌟
             <br />
             <br />I’m fluent in
             <i>
-              <b className="purple"> JavaScript, and the MERN stack, </b>
+              <b className="purple"> JavaScript, and the Full stack, </b>
             </i>
             crafting seamless, scalable applications that make an impact.
             <br />
@@ -35,7 +35,7 @@ function Home2() {
             <br />
             I thrive on creating dynamic solutions with <b className="purple">Node.js, React.js, Next.js, Strapi,</b> and
             <i>
-              <b className="purple"> frameworks like CodeIgniter, </b>
+              <b className="purple"> frameworks like laravel, CodeIgniter </b> 
             </i>
             while styling with <b className="purple">Tailwind CSS and Bootstrap </b> for pixel-perfect interfaces.
             <br />
