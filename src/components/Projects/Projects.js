@@ -15,6 +15,9 @@ import jrnl from "../../Assets/Projects/projects-new/jrnl.png";
 import animation from "../../Assets/Projects/projects-new/animation.png";
 import tracy from "../../Assets/Projects/projects-new/htracy.png";
 import corkcrm from "../../Assets/Projects/projects-new/cork.png";
+import order from "../../Assets/Projects/projects-new/order export.webp"
+import parcel from "../../Assets/Projects/projects-new/parcel.webp";
+import product_options from "../../Assets/Projects/projects-new/smart options.jpg";
 
 
 function Projects() {
@@ -40,7 +43,7 @@ function Projects() {
             />
           </Col>
 
-        
+                 
 
 
           <Col md={4} className="project-card">
@@ -67,6 +70,37 @@ function Projects() {
               demoLink="https://saudi-equipments.vercel.app/?lang=en"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={order}
+              isBlog={false}
+              title="Smart Order Export Pro"
+              description="Automates Shopify order exports with smart scheduling, advanced filters, and fully customizable fields. Supports multiple export formats and can deliver data to email or sync directly with Google Sheets for streamlined reporting and insights."
+              demoLink="https://apps.shopify.com/misk-smart-order-export-pro"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={product_options}
+              isBlog={false}
+              title="Variant & Product Options"
+              description="Adds unlimited no-code product options including text fields, checkboxes, radio buttons, dropdowns, headings, and images. Includes reusable templates, conditional visibility by product data, custom add-to-cart text, and drag-and-drop placement."
+              demoLink="https://apps.shopify.com/misk-smart-product-options"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={parcel}
+              isBlog={false}
+              title="Misk Parcel Order Tracking Pro"
+              description="Delivers real-time shipment tracking with smart email alerts and a fully branded tracking page. Improves post-purchase experience, reduces support tickets, and helps build customer trust with a seamless, no-code setup."
+              demoLink="https://apps.shopify.com/order-tracker-5"
+            />
+          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
