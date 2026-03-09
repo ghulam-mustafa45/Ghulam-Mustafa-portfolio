@@ -20,7 +20,7 @@ function Footer() {
   };
 
   const handleEmailClick = () => {
-    window.open("mailto:ghulam.mustafa.devv@gmail.com", "_blank");
+    window.open("mailto:mustafa.javed428@gmail.com", "_blank");
   };
 
   return (
@@ -78,7 +78,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:ghulam.mustafa.devv@gmail.com"
+                href="mailto:mustafa.javed428@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
