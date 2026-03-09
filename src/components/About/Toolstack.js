@@ -5,7 +5,6 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiVercel,
-  SiDocker,
   SiGithub,
 } from "react-icons/si";
 import { FaCode } from "react-icons/fa"; // Placeholder for Cursor AI

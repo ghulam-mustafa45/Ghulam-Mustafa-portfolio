@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
@@ -16,7 +15,6 @@ import {
   SiBootstrap,
   SiWordpress,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 import { FaCode } from "react-icons/fa"; // Placeholder for CodeIgniter
 
 function Techstack() {
