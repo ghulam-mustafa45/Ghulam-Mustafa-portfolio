@@ -40,16 +40,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={aaxon}
-              isBlog={false}
-              title="Aaxon Solutions"
-              description="Aaxon Solutions provides innovative tech solutions, including SAP, custom software, AI analytics, and secure cloud infrastructure. With 50+ global partnerships, we drive efficiency in health, education, and travel using full-stack development, PWAs, IoT, and AI/ML."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="http://91.107.193.126/"
-            />
-          </Col>
+        
 
 
           <Col md={4} className="project-card">
@@ -63,14 +54,17 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          
+
+
+ <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={luxage}
+              imgPath={saudi}
               isBlog={false}
-              title="Luxage"
-              description="Luxage curates luxury fashion, accessories, and watches, blending style and comfort. Shop high-quality pieces like the Day-Date President Watch (₨24,999) and Iced-Out Diamond Watches (from ₨4,399) with fast delivery, secure payments, and 24/7 support."
+              title="Saudi Equipments"
+              description="Saudi Equipment is Saudi Arabia’s top platform for buying, selling, and renting heavy equipment in 2025, offering a commission-free marketplace. It covers excavators, trucks, cranes, loaders, and generators, connecting users in Riyadh, Jeddah, and more. Download the app on App Store or Google Play."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://luxage.shop/"
+              demoLink="https://saudi-equipments.vercel.app/?lang=en"
             />
           </Col>
 
@@ -84,27 +78,32 @@ function Projects() {
               demoLink="https://mangaai.org/"
             />
           </Col>
-          <Col md={4} className="project-card">
+
+            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={saudi}
+              imgPath={corkcrm}
               isBlog={false}
-              title="Saudi Equipments"
-              description="Saudi Equipment is Saudi Arabia’s top platform for buying, selling, and renting heavy equipment in 2025, offering a commission-free marketplace. It covers excavators, trucks, cranes, loaders, and generators, connecting users in Riyadh, Jeddah, and more. Download the app on App Store or Google Play."
+              title="Corkcrm.com"
+              description="CorkCRM is a business management platform for painting contractors, streamlining tasks from lead tracking to invoicing. With features like e-signable proposals, Google Calendar sync, credit card payments, and detailed reporting, it boosts productivity and data-driven decisions. Built with a secure backend and mobile-friendly design, CorkCRM delivers a powerful, user-friendly solution tailored to the painting industry."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://saudi-equipments.vercel.app/?lang=en"
+              demoLink="https://corkcrm.com/"
+            />
+          </Col>         
+
+
+            <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={aaxon}
+              isBlog={false}
+              title="Aaxon Solutions"
+              description="Aaxon Solutions provides innovative tech solutions, including SAP, custom software, AI analytics, and secure cloud infrastructure. With 50+ global partnerships, we drive efficiency in health, education, and travel using full-stack development, PWAs, IoT, and AI/ML."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="http://91.107.193.126/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={elit}
-              isBlog={false}
-              title="Elit Square"
-              description="Elit Square delivers custom web and mobile app solutions, empowering businesses with scalable, secure digital tools. Our skilled developers use cutting-edge technologies, backed by 24/7 support and transparent pricing, to drive growth and innovation for startups and enterprises alike."
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="http://elitsquare.co/"
-            />
-          </Col>
+          
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -125,6 +124,28 @@ function Projects() {
               description="JobFairX is a virtual job fair platform connecting U.S. job seekers with employers through AI-driven matching. Users create profiles, upload résumés, and receive interview invitations for skill-aligned jobs via a device-agnostic interface. Features include video interviews, real-time scheduling, and reminders, supported by a secure, scalable backend and responsive frontend. JobFairX ensures an efficient, inclusive hiring experience with robust data management."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://jobfairx.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={luxage}
+              isBlog={false}
+              title="Luxage"
+              description="Luxage curates luxury fashion, accessories, and watches, blending style and comfort. Shop high-quality pieces like the Day-Date President Watch (₨24,999) and Iced-Out Diamond Watches (from ₨4,399) with fast delivery, secure payments, and 24/7 support."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://luxage.shop/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={elit}
+              isBlog={false}
+              title="Elit Square"
+              description="Elit Square delivers custom web and mobile app solutions, empowering businesses with scalable, secure digital tools. Our skilled developers use cutting-edge technologies, backed by 24/7 support and transparent pricing, to drive growth and innovation for startups and enterprises alike."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="http://elitsquare.co/"
             />
           </Col>
 
@@ -161,16 +182,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={corkcrm}
-              isBlog={false}
-              title="Corkcrm.com"
-              description="CorkCRM is a business management platform for painting contractors, streamlining tasks from lead tracking to invoicing. With features like e-signable proposals, Google Calendar sync, credit card payments, and detailed reporting, it boosts productivity and data-driven decisions. Built with a secure backend and mobile-friendly design, CorkCRM delivers a powerful, user-friendly solution tailored to the painting industry."
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://corkcrm.com/"
-            />
-          </Col>
+        
         </Row>
       </Container>
     </Container>

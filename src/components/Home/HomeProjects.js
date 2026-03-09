@@ -4,8 +4,9 @@ import ProjectCard from "../Projects/ProjectCards";
 import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import resume from "../../Assets/Projects/projects-new/fastresume.png";
-import aaxon from "../../Assets/Projects/projects-new/aaxon.png";
-import luxage from "../../Assets/Projects/projects-new/luxage.png";
+import luxride from "../../Assets/Projects/projects-new/luxride.png";
+import saudi from "../../Assets/Projects/projects-new/saudi equipment.png";
+
 
 function HomeProjects() {
   return (
@@ -34,25 +35,25 @@ function HomeProjects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={aaxon}
+              imgPath={luxride}
               isBlog={false}
-              title="Aaxon Solutions"
-              description="Aaxon Solutions provides innovative tech solutions, including SAP, custom software, AI analytics, and secure cloud infrastructure. With 50+ global partnerships, we drive efficiency in health, education, and travel using full-stack development, PWAs, IoT, and AI/ML."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="http://91.107.193.126/"
+              title="Luxride"
+              description="Cleveland Lux Ride offers luxury chauffeur services in Cleveland through an intuitive app and website. Book airport transfers, events, or daily rides with flexible options. Our secure platform handles registration, tracking, assignments, and payments, ensuring a premium, seamless travel experience."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://clevelandluxride.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={luxage}
+              imgPath={saudi}
               isBlog={false}
-              title="Luxage"
-              description="Luxage curates luxury fashion, accessories, and watches, blending style and comfort. Shop high-quality pieces like the Day-Date President Watch (₨24,999) and Iced-Out Diamond Watches (from ₨4,399) with fast delivery, secure payments, and 24/7 support."
+              title="Saudi Equipments"
+              description="Saudi Equipment is Saudi Arabia’s top platform for buying, selling, and renting heavy equipment in 2025, offering a commission-free marketplace. It covers excavators, trucks, cranes, loaders, and generators, connecting users in Riyadh, Jeddah, and more. Download the app on App Store or Google Play."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://luxage.shop/"
+              demoLink="https://saudi-equipments.vercel.app/?lang=en"
             />
           </Col>
         </Row>
