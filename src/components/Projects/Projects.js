@@ -8,7 +8,7 @@ import luxage from "../../Assets/Projects/projects-new/luxage.png";
 import luxride from "../../Assets/Projects/projects-new/luxride.png";
 import mangaai from "../../Assets/Projects/projects-new/manga.png";
 import saudi from "../../Assets/Projects/projects-new/saudi equipment.png";
-import elit from "../../Assets/Projects/projects-new/elit square.png";
+// import elit from "../../Assets/Projects/projects-new/elit square.png";
 import bernie from "../../Assets/Projects/projects-new/berniyazi.png";
 import jobfairx from "../../Assets/Projects/projects-new/jobs.png";
 import jrnl from "../../Assets/Projects/projects-new/jrnl.png";
@@ -100,7 +100,7 @@ function Projects() {
               demoLink="https://apps.shopify.com/order-tracker-5"
             />
           </Col>
-          
+
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -168,11 +168,11 @@ function Projects() {
               title="Luxage"
               description="Luxage curates luxury fashion, accessories, and watches, blending style and comfort. Shop high-quality pieces like the Day-Date President Watch (₨24,999) and Iced-Out Diamond Watches (from ₨4,399) with fast delivery, secure payments, and 24/7 support."
               // ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://luxage.shop/"
+              demoLink="https://hotpink-snail-645812.hostingersite.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={elit}
               isBlog={false}
@@ -181,7 +181,7 @@ function Projects() {
               // ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="http://elitsquare.co/"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
