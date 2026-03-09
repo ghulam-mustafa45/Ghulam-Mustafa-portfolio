@@ -14,6 +14,7 @@ import {
   SiStrapi,
   SiBootstrap,
   SiWordpress,
+  SiLaravel,
 } from "react-icons/si";
 import { FaCode } from "react-icons/fa"; // Placeholder for CodeIgniter
 
@@ -71,6 +72,10 @@ function Techstack() {
     <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
       <FaCode />
       <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>CodeIgniter</p>
+    </Col>
+    <Col xs={4} md={2} className="tech-icons" style={{ fontSize: "2rem", padding: "10px" }}>
+      <SiLaravel />
+      <p className="tech-label" style={{ fontSize: "0.9rem", marginTop: "8px" }}>Laravel</p>
     </Col>
   </Row>
   );

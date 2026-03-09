@@ -13,6 +13,8 @@ function AboutCard() {
             <br />
             I am currently employed as a full-stack developer.
             <br />
+            I work with modern stacks including React, Node.js, and Laravel.
+            <br />
             I have completed bachelors in Computer Science from Superior University, Lahore.
             <br />
             <br />
